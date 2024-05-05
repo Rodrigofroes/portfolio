@@ -8,7 +8,7 @@ define("SMTP_PORT", 587);
 define("SMTP_USER", "rodrigofroesport@gmail.com");
 define("SMTP_PASS", "yjdz qfor jvik dojb");
 
-include 'vendor/autoload.php';
+require 'vendor/autoload.php';
 
 function sendEmail($email, $msg, $name)
 {
@@ -25,11 +25,12 @@ function sendEmail($email, $msg, $name)
         $mail->SMTPDebug = 0;
 
         $mail->setFrom('rodrigofroesport@gmail.com', 'Rodrio Oliveira');
-        $mail->addAddress($email, $name);
+        $mail->addAddress('rodrigofroesport@gmail.com', $name);
 
         $mail->isHTML(true);
-        $mail->Subject = 'Contato';
-        $mail->Body = $msg;
+        $mail->Subject = 'Mensagem de contato';
+        $mensagem = 'Olá, você recebeu uma mensagem de contato de: ' . $name . '<br><br> Mensagem: ' . $msg . '<br><br> Email: ' . $email;
+        $mail->Body = $mensagem;
 
         $mail->send();
         echo "<script>alert('Enviado com sucesso!')</script>";
