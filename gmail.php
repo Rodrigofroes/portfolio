@@ -35,7 +35,7 @@ function sendEmail($email, $msg, $name)
         $mail->send();
         echo "<script>alert('Enviado com sucesso!')</script>";
     } catch (Exception $e) {
-        echo "<script>alert('Message could not be sent. Mailer Error: {$mail->ErrorInfo}')</script>";
+        echo "<script>alert('Erro ao enviar o e-mail, tente novamente!')</script>";
     }
 }
 ?>

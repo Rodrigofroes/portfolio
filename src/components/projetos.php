@@ -8,14 +8,14 @@
             <img src="https://via.placeholder.com/250x250" class="rounded-lg" alt="">
             <a href="#" class="text-white font-poppins flex gap-2 hover:underline mt-2 items-center justify-center">
                 Nome do projeto
-                <img src="/portifolio/img/share-solid.svg" alt="">
+                <img src="/img/share-solid.svg" alt="">
             </a>
         </div>
         <div class="bg-nav p-2 rounded-md">
             <img src="https://via.placeholder.com/250x250" class="rounded-lg" alt="">
             <a href="#" class="text-white font-poppins flex gap-2 hover:underline mt-2 items-center justify-center">
                 Nome do projeto
-                <img src="/portifolio/img/share-solid.svg" alt="">
+                <img src="/img/share-solid.svg" alt="">
             </a>
         </div>
     </figure>

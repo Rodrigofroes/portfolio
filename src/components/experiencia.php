@@ -6,11 +6,11 @@
     <div>
         <div class="flex items-center justify-center mb-4 gap-10"/>
             <figure>
-                <img src="/portifolio/img/logoFut.png" width="40" height="40" alt="">
+                <img src="/img/logoFut.png" width="40" height="40" alt="">
             </figure>
             <div class="flex justify-around gap-10">
                 <div>
-                    <p class="font-poppins font-bold text-base text-white">Programador de sistemas de informação - Junior</p>
+                    <p class="font-poppins font-bold text-base text-white">Desenvolvedor - Junior</p>
                 </div>
                 <div>
                     <p class="font-poppins text-sm text-exp">Maio 2024 - Presente</p>

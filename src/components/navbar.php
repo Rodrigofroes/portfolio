@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="output.css">
 <nav class="bg-nav text-white flex justify-evenly h-16 items-center">
     <figure>
-        <img src="/portifolio/img/logo.svg" height="40" width="40" alt="logo">
+        <img src="/img/logo.svg" height="40" width="40" alt="logo">
     </figure>
     <div>
         <li class="flex items-center justify-center list-none gap-10 text-lg font-medium">
