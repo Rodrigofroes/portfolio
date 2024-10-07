@@ -5,7 +5,7 @@
         <div>
             <?php include "src/components/navbar.php" ?>
         </div>
-        <div>
+        <div class="pt-16" id="inicio">
             <?php include "src/components/home.php"?>
         </div>
         <div id="projetos">
