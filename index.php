@@ -1,9 +1,11 @@
 <link rel="stylesheet" href="src/components/output.css">
 
 <head>
+    <meta charset="UTF-8">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/logo.svg">
     <title>Portfólio</title>
 </head>
 
