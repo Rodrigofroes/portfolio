@@ -9,7 +9,7 @@ if (isset($_POST['email']) && isset($_POST['msg']) && isset($_POST['name'])) {
 ?>
 
 <script src="https://cdn.tailwindcss.com"></script>
-<div class="bg-footer flex flex-col items-center justify-center w-full py-12">
+<div class="bg-footer flex flex-col items-center justify-center w-full py-2">
     <div class="mb-6 items-center flex justify-center">
         <h1 class="text-2xl font-extrabold  text-laranjaGrad mb-6">Contato</h1>
     </div>

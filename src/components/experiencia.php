@@ -1,19 +1,25 @@
 <link rel="stylesheet" href="output.css">
-<div class="bg-back flex flex-col items-center justify-center w-full">
-    <div class="mt-8 mb-6 items-center flex justify-center">
-        <h1 class="font-poppins font-extrabold text-2xl text-blue-500 ">Experiencia</h1>
+<div class="bg-back flex flex-col items-center justify-center w-full px-4">
+    <div class="mt-8 mb-6 flex justify-center">
+        <h1 class="font-poppins font-extrabold text-2xl sm:text-xl text-blue-500 text-center">
+            Experiencia
+        </h1>
     </div>
     <div>
-        <div class="flex items-center justify-center mb-4 gap-10"/>
+        <div class="flex flex-col sm:flex-row items-center justify-center mb-4 gap-6">
             <figure>
-                <img src="/img/logoFut.png" width="40" height="40" alt="">
+                <img src="/img/logoFut.png" class="w-16 h-16" alt="Logo">
             </figure>
-            <div class="flex justify-around gap-10">
+            <div class="flex flex-col sm:flex-row justify-around gap-4">
                 <div>
-                    <p class="font-poppins font-bold text-base text-white">Desenvolvedor - Junior</p>
+                    <p class="font-poppins font-bold text-base text-white text-center sm:text-left">
+                        Desenvolvedor - Junior
+                    </p>
                 </div>
                 <div>
-                    <p class="font-poppins text-sm text-exp">Maio 2024 - Presente</p>
+                    <p class="font-poppins text-sm text-exp text-center sm:text-left">
+                        Maio 2024 - Presente
+                    </p>
                 </div>
             </div>
         </div>
