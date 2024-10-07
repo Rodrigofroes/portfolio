@@ -1,4 +1,4 @@
-# Usar uma imagem oficial do PHP 8.1 com Apache
+# Usar uma imagem oficial do PHP 8.1
 FROM php:8.1-cli
 
 # Definir o diretório de trabalho dentro do contêiner
@@ -23,11 +23,11 @@ RUN composer install --no-scripts --no-autoloader
 # Copiar o restante dos arquivos do projeto para o contêiner
 COPY . .
 
-# Instalar dependências do Composer corretamente
+# Instalar dependências do Composer corretamente e otimizar o autoloader
 RUN composer dump-autoload --optimize
 
-# Expor a porta 3000
-EXPOSE 3000
+# Expor a porta 80
+EXPOSE 80
 
-# Comando para rodar o servidor embutido do PHP
-CMD [ "php", "-S", "0.0.0.0:3000", "-t", "." ]
+# Comando para rodar o servidor embutido do PHP na porta 80
+CMD [ "php", "-S", "0.0.0.0:80", "-t", "." ]
