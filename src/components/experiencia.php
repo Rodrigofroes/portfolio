@@ -2,7 +2,7 @@
 <div class="bg-back flex flex-col items-center justify-center w-full px-4">
     <div class="mt-8 mb-6 flex justify-center">
         <h1 class="font-poppins font-extrabold text-2xl sm:text-xl text-blue-500 text-center">
-            Experiencia
+            Experiência
         </h1>
     </div>
     <div>
@@ -13,7 +13,7 @@
             <div class="flex flex-col sm:flex-row justify-around gap-4">
                 <div>
                     <p class="font-poppins font-bold text-base text-white text-center sm:text-left">
-                        Desenvolvedor - Junior
+                        Desenvolvedor - Júnior
                     </p>
                 </div>
                 <div>

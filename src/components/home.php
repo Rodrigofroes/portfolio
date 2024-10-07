@@ -17,7 +17,7 @@
     <!-- Descrição -->
     <div class="text-center">
         <p class="font-poppins text-base md:text-lg text-zinc-400 w-full max-w-md md:max-w-lg">
-            Olá, me chamo Rodrigo. Sou um desenvolvedor Full Stack Junior apaixonado por tecnologia, pronto para enfrentar desafios e contribuir para projetos inovadores.
+            Olá, me chamo Rodrigo. Sou um desenvolvedor Júnior apaixonado por tecnologia, pronto para enfrentar desafios e contribuir para projetos inovadores.
         </p>
     </div>
 
