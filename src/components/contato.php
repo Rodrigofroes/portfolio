@@ -84,7 +84,7 @@
 </div>
 
 <!-- Toast Container -->
-<div id="toast-success" class="fixed bottom-5 right-5 bg-green-500 text-white px-6 py-4 rounded-md shadow-lg opacity-0 transition-opacity duration-300 z-50">
+<div id="toast-success" class="fixed bottom-5 right-5 md:right-5 md:bottom-5 left-1/2 transform -translate-x-1/2 md:translate-x-0 bg-green-500 text-white px-6 py-4 rounded-md shadow-lg opacity-0 transition-opacity duration-300 z-50 max-w-xs md:max-w-sm w-full md:w-auto">
     <div class="flex items-center">
         <span class="mr-2 font-bold">Sucesso:</span>
         <p>Sua mensagem foi enviada com sucesso!</p>
