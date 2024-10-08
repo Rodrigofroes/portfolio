@@ -23,12 +23,13 @@
 
         <!-- Projeto 2 -->
         <div class="bg-nav p-4 rounded-md flex flex-col items-center">
-            <img src="https://via.placeholder.com/250x250" class="rounded-lg w-full h-60 object-cover" alt="Projeto 2">
+            <img src="../.././img/splash.jpeg" class="rounded-lg w-full h-60 object-cover mx-auto" alt="Projeto 2">
             <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="text-white font-poppins flex gap-2 hover:underline mt-4 items-center justify-center">
-                Nome do projeto
+                Gestão Fácil
                 <img src="/img/share-solid.svg" class="w-4 h-4" alt="">
             </button>
         </div>
+
 
         <!-- Projeto 3 -->
         <div class="bg-nav p-4 rounded-md flex flex-col items-center">
