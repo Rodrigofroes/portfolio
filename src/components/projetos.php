@@ -12,9 +12,9 @@
     <figure class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl">
         <!-- Projeto 1 -->
         <div class="bg-nav p-4 rounded-md flex flex-col items-center">
-            <img src="https://via.placeholder.com/250x250" class="rounded-lg w-full h-60 object-cover" alt="Projeto 1">
-            <button class="text-white font-poppins flex gap-2 hover:underline mt-4 items-center justify-center">
-                Nome do projeto
+            <img src="../.././img/image.png" class="rounded-lg w-full h-60 object-cover mx-auto" alt="Projeto 1">
+            <button data-bs-toggle="modal" data-bs-target="#matriculaModal" class="text-white font-poppins flex gap-2 hover:underline mt-4 items-center justify-center">
+                API - Matrícula
                 <img src="/img/share-solid.svg" class="w-4 h-4" alt="">
             </button>
         </div>
@@ -108,6 +108,73 @@
                         <!-- Barra de Progresso -->
                         <div class="progress mt-2" role="progressbar" aria-label="Progress" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rodapé do Modal -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal API Matrícula -->
+<div class="modal fade" id="matriculaModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="matriculaModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered"> <!-- Modal grande e centralizado -->
+        <div class="modal-content">
+            <!-- Cabeçalho do Modal -->
+            <div class="modal-header">
+                <h5 class="modal-title" id="matriculaModalLabel">📄 API - Matrícula</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <!-- Corpo do Modal -->
+            <div class="modal-body">
+                <div class="row">
+                    <!-- Coluna do Carrossel de Imagens -->
+                    <div class="col-lg-6 col-md-12 mb-4">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../.././img/image.png" class="d-block w-100" alt="Imagem da API de Matrícula">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Próximo</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Coluna da Descrição do Projeto -->
+                    <div class="col-lg-6 col-md-12">
+                        <p>
+                            A API de Matrícula é responsável por gerenciar as funcionalidades de cadastro de alunos, geração de mensalidades, criação de RA (Registro Acadêmico) e senhas. Utiliza JWT para autenticação e oferece rotas públicas para listagem de cursos e criação de matrículas.
+                        </p>
+
+                        <!-- Tecnologias Utilizadas -->
+                        <p>
+                            <strong>Tecnologias utilizadas:</strong><br>
+                            <span>🚀 Express</span> <br>
+                            <span>🛠️ JavaScript</span> <br>
+                            <span>🔑 JWT para autenticação</span> <br>
+                        </p>
+
+                        <!-- Status do Projeto -->
+                        <p>
+                            <strong>Status: </strong>⚙️ Finalizado.
+                        </p>
+
+                        <!-- Barra de Progresso -->
+                        <div class="progress mt-2" role="progressbar" aria-label="Progress" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%"></div>
                         </div>
                     </div>
                 </div>
