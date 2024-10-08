@@ -1,12 +1,50 @@
-<?php
-include 'gmail.php';
-if (isset($_POST['email']) && isset($_POST['msg']) && isset($_POST['name'])) {
-    $email = $_POST['email'];
-    $msg = $_POST['msg'];
-    $name = $_POST['name'];
-    sendEmail($email, $msg, $name);
-}
-?>
+<script>
+    $(document).ready(function() {
+        $('form').submit(function(e) {
+            e.preventDefault();
+
+            let nome = $('#inputName').val();
+            let email = $('#inputEmail').val();
+            let msg = $('#msg').val();
+
+            const button = $('#submitButton');
+            const buttonText = $('#buttonText');
+            const spinner = $('#spinner');
+
+            button.prop('disabled', true);
+            buttonText.addClass('hidden');
+            spinner.removeClass('hidden');
+
+            $.ajax({
+                type: 'post',
+                url: 'gmail.php',
+                data: {
+                    name: nome,
+                    email: email,
+                    msg: msg
+                },
+                success: function(data) {
+                    if (data.ok) {
+                        $('#toast-success').css('opacity', '1');
+                        setTimeout(() => {
+                            $('#toast-success').css('opacity', '0');
+                        }, 5000);
+                    } else {
+                        alert(data.msg);
+                    }
+                },
+                error: function() {
+                    alert('Erro ao enviar a mensagem.');
+                },
+                complete: function() {
+                    button.prop('disabled', false);
+                    buttonText.removeClass('hidden');
+                    spinner.addClass('hidden');
+                }
+            });
+        });
+    });
+</script>
 
 <script src="https://cdn.tailwindcss.com"></script>
 <div class="bg-footer flex flex-col items-center justify-center w-full py-2">
@@ -34,9 +72,21 @@ if (isset($_POST['email']) && isset($_POST['msg']) && isset($_POST['name'])) {
                     id="msg" name="msg" placeholder="Digite sua mensagem" required></textarea>
             </div>
 
-            <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-medium p-3 rounded-md transition duration-300">
-                Enviar
+            <button id="submitButton" type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-medium p-3 rounded-md transition duration-300 flex items-center justify-center">
+                <span id="buttonText">Enviar</span>
+                <div id="spinner" class="spinner-border text-light ml-2 hidden" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
             </button>
+
         </form>
+    </div>
+</div>
+
+<!-- Toast Container -->
+<div id="toast-success" class="fixed bottom-5 right-5 bg-green-500 text-white px-6 py-4 rounded-md shadow-lg opacity-0 transition-opacity duration-300 z-50">
+    <div class="flex items-center">
+        <span class="mr-2 font-bold">Sucesso:</span>
+        <p>Sua mensagem foi enviada com sucesso!</p>
     </div>
 </div>

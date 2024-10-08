@@ -9,10 +9,10 @@
     </div>
 
     <!-- Grid de Projetos -->
-    <figure class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-4xl">
         <!-- Projeto 1 -->
         <div class="bg-nav p-4 rounded-md flex flex-col items-center">
-            <img src="../.././img/image.png" class="rounded-lg w-full h-60 object-cover mx-auto" alt="Projeto 1">
+            <img src="../.././img/image.png" class="rounded-lg w-full h-60 object-cover" alt="Projeto 1">
             <button data-bs-toggle="modal" data-bs-target="#matriculaModal" class="text-white font-poppins flex gap-2 hover:underline mt-4 items-center justify-center">
                 API - Matrícula
                 <img src="/img/share-solid.svg" class="w-4 h-4" alt="">
@@ -21,23 +21,13 @@
 
         <!-- Projeto 2 -->
         <div class="bg-nav p-4 rounded-md flex flex-col items-center">
-            <img src="../.././img/splash.jpeg" class="rounded-lg w-full h-60 object-cover mx-auto" alt="Projeto 2">
+            <img src="../.././img/splash.jpeg" class="rounded-lg w-full h-60 object-cover" alt="Projeto 2">
             <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="text-white font-poppins flex gap-2 hover:underline mt-4 items-center justify-center">
                 Gestão Fácil
                 <img src="/img/share-solid.svg" class="w-4 h-4" alt="">
             </button>
         </div>
-
-
-        <!-- Projeto 3 -->
-        <div class="bg-nav p-4 rounded-md flex flex-col items-center">
-            <img src="https://via.placeholder.com/250x250" class="rounded-lg w-full h-60 object-cover" alt="Projeto 3">
-            <button class="text-white font-poppins flex gap-2 hover:underline mt-4 items-center justify-center">
-                Nome do projeto
-                <img src="/img/share-solid.svg" class="w-4 h-4" alt="">
-            </button>
-        </div>
-    </figure>
+    </div>
 </div>
 
 
@@ -127,7 +117,7 @@
         <div class="modal-content">
             <!-- Cabeçalho do Modal -->
             <div class="modal-header">
-                <h5 class="modal-title" id="matriculaModalLabel">📄 API - Matrícula</h5>
+                <h5 class="modal-title" id="matriculaModalLabel">📄 API - Matrículas</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
 
@@ -156,7 +146,7 @@
                     <!-- Coluna da Descrição do Projeto -->
                     <div class="col-lg-6 col-md-12">
                         <p>
-                            A API de Matrícula é responsável por gerenciar as funcionalidades de cadastro de alunos, geração de mensalidades, criação de RA (Registro Acadêmico) e senhas. Utiliza JWT para autenticação e oferece rotas públicas para listagem de cursos e criação de matrículas.
+                            A API de Matrículas é responsável por gerenciar as funcionalidades de cadastro de alunos, geração de mensalidades, criação de RA (Registro Acadêmico) e senhas. Utiliza JWT para autenticação e oferece rotas públicas para listagem de cursos e criação de matrículas.
                         </p>
 
                         <!-- Tecnologias Utilizadas -->
