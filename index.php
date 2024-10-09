@@ -23,6 +23,17 @@
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-K5JT5ZDG');
     </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-62242048BV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-62242048BV');
+    </script>
     <link rel="icon" type="image/x-icon" href="./img/logo.svg">
     <title>Portfólio</title>
 </head>
@@ -63,7 +74,7 @@
     <!-- Google Tag Manager (noscript) -->
     <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5JT5ZDG"
-                 height="0" width="0" style="display:none;visibility:hidden">
+            height="0" width="0" style="display:none;visibility:hidden">
         </iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
