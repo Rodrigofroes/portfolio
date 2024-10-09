@@ -24,11 +24,15 @@
                     msg: msg
                 },
                 success: function(data) {
+                    console.log(data);
                     if (data.ok) {
                         $('#toast-success').css('opacity', '1');
                         setTimeout(() => {
                             $('#toast-success').css('opacity', '0');
                         }, 5000);
+
+                        $('form').trigger('reset');
+
                     } else {
                         alert(data.msg);
                     }

@@ -1,6 +1,5 @@
 <?php
 header('Content-Type: application/json');
-
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP;
@@ -8,7 +7,7 @@ use PHPMailer\PHPMailer\SMTP;
 define("SMTP_HOST", "smtp.gmail.com");
 define("SMTP_PORT", 587);
 define("SMTP_USER", "rodrigofroesport@gmail.com");
-define("SMTP_PASS", "yjdz qfor jvik dojb"); // Certifique-se de que a senha esteja correta e segura
+define("SMTP_PASS", "yjdz qfor jvik dojb"); 
 
 require 'vendor/autoload.php';
 
