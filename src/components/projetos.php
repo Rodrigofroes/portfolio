@@ -153,7 +153,7 @@
                         <p>
                             <strong>💻 Tecnologias Utilizadas:</strong><br>
                             <span><strong>🛠️ Frontend:</strong> HTML, CSS, Bootstrap, JavaScript</span> <br>
-                            <span><strong>🛠️ Backend:</strong> Express.js, MySQL, JavaScript, Stripe para pagamentos</span> <br>
+                            <span><strong>🛠️ Backend:</strong> Express.js, MySQL, Stripe para pagamentos</span> <br>
                             <span><strong>🔑 Autenticação:</strong> JWT para segurança no acesso</span> <br>
                         </p>
 
