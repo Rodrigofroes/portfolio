@@ -12,9 +12,9 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-4xl">
         <!-- Projeto 1 -->
         <div class="bg-nav p-4 rounded-md flex flex-col items-center">
-            <img src="../.././img/image.png" class="rounded-lg w-full h-60 object-cover" alt="Projeto 1">
+            <img src="../.././img/matricula.png" class="rounded-lg w-full h-60 object-cover" alt="Projeto 1">
             <button data-bs-toggle="modal" data-bs-target="#matriculaModal" class="text-white font-poppins flex gap-2 hover:underline mt-4 items-center justify-center">
-                API - Matrícula
+             Invert
                 <img src="/img/share-solid.svg" class="w-4 h-4" alt="">
             </button>
         </div>
@@ -117,7 +117,7 @@
         <div class="modal-content">
             <!-- Cabeçalho do Modal -->
             <div class="modal-header">
-                <h5 class="modal-title" id="matriculaModalLabel">📄 API - Matrículas</h5>
+                <h5 class="modal-title" id="matriculaModalLabel">📄 Projeto Invert</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
 
@@ -129,7 +129,7 @@
                         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="../.././img/image.png" class="d-block w-100" alt="Imagem da API de Matrícula">
+                                    <img src="../.././img/matricula.png" class="d-block w-100" alt="Imagem da API de Matrícula">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -146,20 +146,20 @@
                     <!-- Coluna da Descrição do Projeto -->
                     <div class="col-lg-6 col-md-12">
                         <p>
-                            A API de Matrículas é responsável por gerenciar as funcionalidades de cadastro de alunos, geração de mensalidades, criação de RA (Registro Acadêmico) e senhas. Utiliza JWT para autenticação e oferece rotas públicas para listagem de cursos e criação de matrículas.
+                            O Projeto Invert é uma aplicação para gestão de matrículas de alunos, que automatiza a geração de mensalidades, RA (Registro Acadêmico) e senhas. Inclui autenticação via JWT e rotas públicas para listagem de cursos e cadastro de novas matrículas.
                         </p>
 
                         <!-- Tecnologias Utilizadas -->
                         <p>
-                            <strong>Tecnologias utilizadas:</strong><br>
-                            <span>🚀 Express</span> <br>
-                            <span>🛠️ JavaScript</span> <br>
-                            <span>🔑 JWT para autenticação</span> <br>
+                            <strong>💻 Tecnologias Utilizadas:</strong><br>
+                            <span><strong>🛠️ Frontend:</strong> HTML, CSS, Bootstrap, JavaScript</span> <br>
+                            <span><strong>🛠️ Backend:</strong> Express.js, MySQL, JavaScript, Stripe para pagamentos</span> <br>
+                            <span><strong>🔑 Autenticação:</strong> JWT para segurança no acesso</span> <br>
                         </p>
 
                         <!-- Status do Projeto -->
                         <p>
-                            <strong>Status: </strong>⚙️ Finalizado.
+                            <strong>Status:</strong> ⚙️ Finalizado.
                         </p>
 
                         <!-- Barra de Progresso -->
