@@ -18,7 +18,7 @@
                 </div>
                 <div>
                     <p class="font-poppins text-sm text-exp text-center sm:text-left">
-                        Maio 2024 - Presente
+                        Maio 2024 - Novembro 2024
                     </p>
                 </div>
             </div>
