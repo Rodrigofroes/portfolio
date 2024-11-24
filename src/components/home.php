@@ -3,8 +3,8 @@
 <div class="flex flex-col items-center justify-center w-full bg-back gap-8 px-4 py-8 md:gap-6">
     <!-- Imagem do perfil -->
     <figure class="mt-10">
-        <img style="border-radius: 50%; border: 4px solid #222222; width: 200px; height: 200px; object-fit: cover;" 
-             class="md:w-64 md:h-64" src="/img/perfil.jpeg" alt="avatar">
+        <img style="border-radius: 50%; border: 4px solid #222222; width: 200px; height: 200px; object-fit: cover;"
+            class="md:w-64 md:h-64" src="/img/perfil.jpeg" alt="avatar">
     </figure>
 
     <!-- Título principal -->
@@ -15,9 +15,9 @@
     </div>
 
     <!-- Descrição -->
-    <div class="text-center">
-        <p class="font-poppins text-base md:text-lg text-zinc-400 w-full max-w-md md:max-w-lg">
-            Olá, me chamo Rodrigo. Sou um desenvolvedor Júnior apaixonado por tecnologia, pronto para enfrentar desafios e contribuir para projetos inovadores.
+    <div class="text-justify">
+        <p class="font-poppins  md:text-lg text-zinc-400 w-full max-w-md md:max-w-lg">
+            Olá, me chamo Rodrigo. Desenvolvedor Júnior com experiência em backend e frontend. Apaixonado por criar soluções tecnológicas que aliam eficiência e inovação. Atualmente cursando Análise e Desenvolvimento de Sistemas, estou constantemente aprimorando minhas habilidades e participando de projetos desafiadores, focando na entrega de valor aos usuários e na colaboração em equipe.
         </p>
     </div>
 
@@ -35,12 +35,27 @@
             Experiência com
         </h1>
         <figure class="flex flex-wrap justify-center items-center gap-4">
-            <img src="/img/nodejs-plain.svg" width="40" height="40" alt="">
-            <img src="/img/php-plain.svg" width="40" height="40" alt="">
-            <img src="/img/mysql-plain.svg" width="40" height="40" alt="">
-            <img src="/img/html5-original.svg" width="40" height="40" alt="">
-            <img src="/img/css3-original.svg" width="40" height="40" alt="">
-            <img src="/img/javascript-original.svg" width="40" height="40" alt="">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" align="center" heigth="50" width="60" />
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg" align="center" heigth="50" width="60">
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" align="center" heigth="50" width="60" />
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-plain.svg" align="center" heigth="50" width="60" />
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" align="center" heigth="50" width="60">
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" align="center" heigth="50" width="60" />
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" align="center" heigth="50" width="60" />
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" align="center" heigth="50" width="60" />
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" align="center" heigth="50" width="60">
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" align="center" heigth="50" width="60">
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg" align="center" heigth="50" width="60" />
         </figure>
     </div>
 </div>

@@ -13,7 +13,7 @@
             <div class="flex flex-col sm:flex-row justify-around gap-4">
                 <div>
                     <p class="font-poppins font-bold text-base text-white text-center sm:text-left">
-                        Desenvolvedor - Júnior
+                       FutFanatics - Desenvolvedor Júnior
                     </p>
                 </div>
                 <div>
